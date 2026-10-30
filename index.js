@@ -27,7 +27,7 @@ const client = new Client({
 const TOKEN = process.env.TOKEN;
 
 const EMOJIS = ["🔼", "🔽"];
-const ALLOWED_CHANNELS = ["1475574304472305836","1475902546462904612","1475904157692072127"]; // buraya kanal ID'lerini yaz
+const ALLOWED_CHANNELS = ["1475574304472305836","1475902546462904612","1475904157692072127","1564763000269971496"]; // buraya kanal ID'lerini yaz
 
 client.on("messageCreate", async (message) => {
     if (message.author.bot) return;
